@@ -7,7 +7,9 @@ import 'dotenv/config';
 import { GoogleGenAI } from "@google/genai";
 import readlineSync from "readline-sync";
 
-const ai = new GoogleGenAI({});
+const ai = new GoogleGenAI({
+  apiKey: process.env.GEMINI_API_KEY
+});
 
 async function main() {
   console.log("Chat started! Type 'exit' to quit.\n");
