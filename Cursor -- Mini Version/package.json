@@ -1,0 +1,18 @@
+{
+  "name": "cursor--mini-version",
+  "version": "1.0.0",
+  "description": "Mini version of cursor, a simple coding agent",
+  "license": "ISC",
+  "author": "Jayesh Singh",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@google/genai": "^2.17.1",
+    "dotenv": "^17.4.2",
+    "os": "^0.1.2",
+    "readline-sync": "^1.4.10"
+  }
+}
